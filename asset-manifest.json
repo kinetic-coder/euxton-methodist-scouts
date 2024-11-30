@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/euxton-methodist-scouts/static/css/main.f855e6bc.css",
-    "main.js": "/euxton-methodist-scouts/static/js/main.8ab43543.js",
+    "main.css": "/euxton-methodist-scouts/static/css/main.679c1ac0.css",
+    "main.js": "/euxton-methodist-scouts/static/js/main.464d43e9.js",
     "static/js/453.1965c8d6.chunk.js": "/euxton-methodist-scouts/static/js/453.1965c8d6.chunk.js",
-    "static/media/logo.svg": "/euxton-methodist-scouts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/kids-camp-fire.jpg": "/euxton-methodist-scouts/static/media/kids-camp-fire.93e389fb69aa0c106853.jpg",
+    "static/media/scouts-logo-purple.png": "/euxton-methodist-scouts/static/media/scouts-logo-purple.262269a867e303d27326.png",
+    "static/media/beavers-logo-multi-colour.png": "/euxton-methodist-scouts/static/media/beavers-logo-multi-colour.9b2e0aee8c2ecee23980.png",
+    "static/media/scouts-logo-green.png": "/euxton-methodist-scouts/static/media/scouts-logo-green.293f47c14a0616f149b6.png",
     "index.html": "/euxton-methodist-scouts/index.html",
-    "main.f855e6bc.css.map": "/euxton-methodist-scouts/static/css/main.f855e6bc.css.map",
-    "main.8ab43543.js.map": "/euxton-methodist-scouts/static/js/main.8ab43543.js.map",
+    "main.679c1ac0.css.map": "/euxton-methodist-scouts/static/css/main.679c1ac0.css.map",
+    "main.464d43e9.js.map": "/euxton-methodist-scouts/static/js/main.464d43e9.js.map",
     "453.1965c8d6.chunk.js.map": "/euxton-methodist-scouts/static/js/453.1965c8d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.8ab43543.js"
+    "static/css/main.679c1ac0.css",
+    "static/js/main.464d43e9.js"
   ]
 }
