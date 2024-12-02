@@ -109,6 +109,20 @@ const HomeView = () => {
             </table>
 
             <p>** Note: Each section team will email parents each week to confirm location and time of session.</p>
+
+            <h2>Uniforms and Badges</h2>
+            <p>When a young person joins our group, we recommend that they come for a couple of weeks before coming in uniform. This gives them a chance to confirm that they enjoy it.</p>
+            <p>
+                After about 4 weeks, a section leader will email the parents asking whether the young person wishes to become
+                 a member of the section. This is normally done at the end of a session and can be done in any location. 
+                 The young person will be presented with a knecker, Group knecker badge, Chorley district badge, group name badge and membership badge.
+                 Badges should be placed in the correct position on the uniform. Details of where badges are placed on the uniform, please check this link... 
+                 <a href="https://www.scouts.org.uk/scouts/scouts-uniform-and-badge-placement/">Scouts UK Uniform and Badge Placement</a>
+            </p>
+            <p>Beavers, Cubs and Scout uniform can be purchased either online at the Scouts shop <a href="https://shop.scouts.org.uk/">here</a> or by visiting the Chorley District HQ. Details can be found here... 
+            <a href="https://www.chorleyscouts.org.uk/about-us/scout-centre">here</a></p>
+
+            
         </div>
     );
 };
