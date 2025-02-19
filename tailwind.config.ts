@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import daisyui from "daisyui";
 
 export default {
   content: [
@@ -13,6 +14,10 @@ export default {
         foreground: "var(--foreground)",
       },
     },
-  },
-  plugins: [],
+    plugins: [daisyui],
+    daisyui: {
+      themes: ["dark"], // Specify the theme you want to use
+      darkTheme: "dark", // Name of the theme for dark mode
+    },
+  }
 } satisfies Config;
