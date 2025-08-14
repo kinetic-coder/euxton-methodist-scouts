@@ -142,7 +142,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-4">How Can My Child Join?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             We welcome new members throughout the year! Contact us to find out about availability
-            in your child's age group and arrange a visit.
+            in your child&apos;s age group and arrange a visit.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

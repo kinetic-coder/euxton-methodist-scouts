@@ -20,7 +20,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
               <p className="text-lg text-gray-600 mb-8">
-                We'd love to hear from you! Whether you're interested in your child joining our scout group, 
+                We&apos;d love to hear from you! Whether you&apos;re interested in your child joining our scout group,
                 have questions about our activities, or want to know more about what we do, please get in touch.
               </p>
               
@@ -105,7 +105,7 @@ export default function ContactPage() {
                 
                 <div>
                   <label htmlFor="childAge" className="block text-sm font-medium text-gray-700 mb-2">
-                    Child's Age (if applicable)
+                    Child&apos;s Age (if applicable)
                   </label>
                   <select
                     id="childAge"
