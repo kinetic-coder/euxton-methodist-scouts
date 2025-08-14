@@ -58,10 +58,10 @@ app/
 ## Customization
 
 ### Colors
-The website uses a green color scheme that matches traditional scouting colors:
-- Primary: Green-600 (#059669)
-- Secondary: Green-700 (#047857)
-- Accent: Green-800 (#065f46)
+The website uses a blue color scheme that matches the official Scouts UK branding:
+- Primary: Blue-600 (#1d4ed8)
+- Secondary: Blue-700 (#1e40af)
+- Accent: Blue-800 (#1e3a8a)
 
 ### Images
 Scout section logos are stored in the `public/images/` directory:
