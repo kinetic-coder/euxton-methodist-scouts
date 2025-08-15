@@ -28,7 +28,7 @@ export default function AboutPage() {
                 that has been helping young people develop skills for life for over 100 years.
               </p>
               <p className="text-lg text-gray-600">
-                We generally meet at Euxton Methodist Church Hall but also get out and about for various activities,
+                We generally meet at Euxton Methodist Church Hall, Wigan Road, Euxton, Chorley, Lancashire, PR7 6LP but also get out and about for various activities,
                 camps, and adventures. We keep all scout parents updated with weekly emails about upcoming events.
               </p>
             </div>
