@@ -104,6 +104,7 @@ export default function RootLayout({
             </div>
             <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
               <p>&copy; {new Date().getFullYear()} Euxton Methodist Scouts. All rights reserved.</p>
+              <p className="text-sm text-gray-400 mt-2">Version 1.0.0</p>
             </div>
           </div>
         </footer>
