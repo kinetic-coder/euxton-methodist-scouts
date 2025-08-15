@@ -34,11 +34,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Meeting Location</h3>
-                    <p className="text-gray-600">
-                      Euxton Methodist Church Hall<br />
-                      Euxton, Lancashire<br />
-                      North West England
-                    </p>
+                                          <p className="text-gray-600">
+                        Euxton Methodist Church Hall<br />
+                        Wigan Road, Euxton<br />
+                        Chorley, Lancashire, PR7 6LP<br />
+                        North West England
+                      </p>
                   </div>
                 </div>
 

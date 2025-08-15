@@ -189,7 +189,7 @@ export default function Home() {
             Ready to Join the Adventure?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            We generally meet at Euxton Methodist Church Hall and keep parents updated with weekly emails.
+            We generally meet at Euxton Methodist Church Hall, Wigan Road, Euxton, Chorley, Lancashire, PR7 6LP and keep parents updated with weekly emails.
             Contact us to find out more about joining our group!
           </p>
           <Link

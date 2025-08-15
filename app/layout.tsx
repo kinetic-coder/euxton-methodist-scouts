@@ -51,6 +51,9 @@ export default function RootLayout({
                       </Link>
                     </div>
                   </div>
+                  <Link href="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                    FAQ
+                  </Link>
                   <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
                     Contact
                   </Link>
@@ -86,7 +89,8 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Meeting Location</h3>
                 <p className="text-gray-300">
                   Euxton Methodist Church Hall<br />
-                  Euxton, Lancashire<br />
+                  Wigan Road, Euxton<br />
+                  Chorley, Lancashire, PR7 6LP<br />
                   North West England
                 </p>
               </div>
