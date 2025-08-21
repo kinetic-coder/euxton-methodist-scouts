@@ -12,6 +12,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Official Scouts UK Brand Colors
+        'scouts-purple': '#7413dc',      // Core color - Scouts Purple
+        'scouts-teal': '#088486',        // Scouts Teal
+        'scouts-red': '#ed3f23',         // Scouts Red
+        'scouts-pink': '#ffb4e5',        // Scouts Pink
+        'scouts-green': '#25b755',       // Scouts Green
+        'scouts-navy': '#003982',        // Scouts Navy
+        'scouts-blue': '#006ddf',        // Scouts Blue
+        'scouts-forest-green': '#205b41', // Scouts Forest Green
+        'scouts-orange': '#ff912a',      // Scouts Orange
+        'scouts-yellow': '#ffe627',      // Scouts Yellow
       },
     },
     plugins: [daisyui],

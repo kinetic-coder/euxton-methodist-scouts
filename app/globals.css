@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --scouts-purple: #7413dc;
+  --scouts-teal: #088486;
+  --scouts-red: #ed3f23;
+  --scouts-blue: #006ddf;
+  --scouts-green: #25b755;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,12 +35,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1d4ed8;
+  background: var(--scouts-purple);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1e40af;
+  background: #5a0fb0;
 }
 
 /* Smooth transitions */
@@ -49,5 +54,40 @@ body {
 .focus-ring:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-  box-shadow: 0 0 0 2px #1d4ed8;
+  box-shadow: 0 0 0 2px var(--scouts-purple);
+}
+
+/* Mobile navigation animations */
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.slide-in-from-top-2 {
+  animation: slideInFromTop 0.2s ease-out;
+}
+
+.slide-in-from-left-2 {
+  animation: slideInFromLeft 0.2s ease-out;
 }

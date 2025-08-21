@@ -1,6 +1,7 @@
 import "./globals.css";
 import Link from "next/link";
 import { Nunito_Sans } from "next/font/google";
+import { MobileNav } from "./components/MobileNav";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -15,25 +16,26 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunitoSans.variable}>
-        <nav className="bg-blue-700 text-white shadow-lg">
+        <nav className="bg-scouts-purple text-white shadow-lg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center">
-                <Link href="/" className="text-xl font-bold hover:text-blue-200 transition-colors">
+                <Link href="/" className="text-xl font-bold hover:text-purple-200 transition-colors">
                   Euxton Methodist Scouts
                 </Link>
               </div>
 
+              {/* Desktop Navigation */}
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                  <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-600 transition-colors">
                     Home
                   </Link>
-                  <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                  <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-600 transition-colors">
                     About
                   </Link>
                   <div className="relative group">
-                    <button className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                    <button className="px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-600 transition-colors">
                       Sections
                     </button>
                     <div className="absolute right-0 w-48 mt-2 py-2 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
@@ -51,23 +53,17 @@ export default function RootLayout({
                       </Link>
                     </div>
                   </div>
-                  <Link href="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                  <Link href="/faq" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-600 transition-colors">
                     FAQ
                   </Link>
-                  <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
+                  <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-purple-600 transition-colors">
                     Contact
                   </Link>
                 </div>
               </div>
 
-              {/* Mobile menu button */}
-              <div className="md:hidden">
-                <button className="text-white hover:text-blue-200 focus:outline-none focus:text-blue-200">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
+              {/* Mobile Navigation */}
+              <MobileNav />
             </div>
           </div>
         </nav>

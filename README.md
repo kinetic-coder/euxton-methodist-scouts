@@ -58,10 +58,11 @@ app/
 ## Customization
 
 ### Colors
-The website uses a blue color scheme that matches the official Scouts UK branding:
-- Primary: Blue-600 (#1d4ed8)
-- Secondary: Blue-700 (#1e40af)
-- Accent: Blue-800 (#1e3a8a)
+The website uses the official Scouts UK brand colors as specified in the July 2024 Brand Guidelines:
+- **Core Color**: Scouts Purple (#7413dc) - Our primary brand color
+- **Secondary**: Scouts Teal (#088486) - For accents and secondary elements
+- **Supporting Colors**: Scouts Red (#ed3f23), Scouts Blue (#006ddf), Scouts Green (#25b755)
+- **Additional Colors**: Scouts Navy (#003982), Scouts Forest Green (#205b41), Scouts Orange (#ff912a), Scouts Yellow (#ffe627)
 
 ### Images
 Scout section logos are stored in the `public/images/` directory:
