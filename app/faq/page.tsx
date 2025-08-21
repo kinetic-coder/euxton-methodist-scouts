@@ -56,11 +56,11 @@ export default function FAQPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-blue-700 text-white">
+      <div className="bg-scouts-purple text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-4">Frequently Asked Questions</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
               Everything you need to know about joining Euxton Methodist Scouts
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function FAQPage() {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-16 bg-blue-50 rounded-lg p-8 text-center">
+        <div className="mt-16 bg-purple-50 rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             Still have questions?
           </h2>
@@ -93,13 +93,13 @@ export default function FAQPage() {
           <div className="space-x-4">
             <Link 
               href="/contact" 
-              className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-800 transition-colors"
+              className="inline-block bg-scouts-purple text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-800 transition-colors"
             >
               Contact Us
             </Link>
             <Link 
               href="/about" 
-              className="inline-block bg-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
+              className="inline-block bg-scouts-teal text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-800 transition-colors"
             >
               Learn More About Us
             </Link>
@@ -115,7 +115,7 @@ export default function FAQPage() {
             </p>
             <Link 
               href="/about" 
-              className="text-blue-700 hover:text-blue-800 font-medium"
+              className="text-scouts-purple hover:text-purple-800 font-medium"
             >
               Explore Our Sections →
             </Link>
@@ -127,7 +127,7 @@ export default function FAQPage() {
             </p>
             <Link 
               href="/contact" 
-              className="text-blue-700 hover:text-blue-800 font-medium"
+              className="text-scouts-purple hover:text-purple-800 font-medium"
             >
               Contact Us →
             </Link>
