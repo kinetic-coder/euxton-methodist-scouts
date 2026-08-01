@@ -84,6 +84,33 @@ export default function BeaversPage() {
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-purple-50 border border-purple-200 rounded-lg p-8">
+            <h2 className="text-3xl font-bold text-gray-900 text-center mb-6">Your First Few Weeks</h2>
+            <div className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed space-y-4">
+              <p>
+                For the first couple of weeks, come as you are. We want to make sure that your
+                child is happy and settled. If you or your child have questions, please speak to
+                one of the leaders, who will be happy to help.
+              </p>
+              <p>
+                Once you and your child are happy to continue with the group, we will organise an
+                investiture. This sounds quite formal, but it is not: it is simply a short
+                ceremony where the young person and leader say the Scout Promise in front of the
+                group.
+              </p>
+              <p>
+                This normally happens just before a session and is a special event where parents
+                can attend and take photos for personal use only. We will present a group
+                neckerchief, membership badge, and Chorley District badges. Before the
+                investiture, we ask that young people are kitted out in their section&apos;s uniform.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Badges and Awards */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -144,7 +171,7 @@ export default function BeaversPage() {
                 Our Beaver colony meets regularly during term time. We focus on fun, learning, and friendship.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="text-center">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">What to Expect</h3>
                   <ul className="text-gray-600 space-y-2 text-left">
@@ -165,7 +192,26 @@ export default function BeaversPage() {
                     <li>• Any specific items for activities</li>
                   </ul>
                 </div>
+
+                <div className="text-center">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">Where We Meet</h3>
+                  <address className="text-gray-600 not-italic leading-relaxed">
+                    Euxton Methodist Church Hall<br />
+                    Wigan Road, Euxton<br />
+                    Chorley, Lancashire, PR7 6LP<br />
+                    North West England
+                  </address>
+                </div>
               </div>
+
+              <a
+                href="https://www.knotyet.org.uk/join/org-096f4fa2-a194-4842-9e25-cbdd17ff620e"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Register Your Interest
+              </a>
             </div>
           </div>
         </div>
